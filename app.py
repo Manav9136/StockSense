@@ -155,7 +155,6 @@ st.plotly_chart(
 # VOLUME CHART
 # ==================================================
 
-st.subheader("Trading Volume")
 
 fig_volume = go.Figure()
 
@@ -186,7 +185,6 @@ st.plotly_chart(
 # DAILY RETURN CHART
 # ==================================================
 
-st.subheader("Daily Return")
 
 fig_return = go.Figure()
 
@@ -218,7 +216,6 @@ st.plotly_chart(
 # DRAWDOWN CHART
 # ==================================================
 
-st.subheader("Historical Drawdown")
 
 fig_drawdown = go.Figure()
 
@@ -307,7 +304,6 @@ fig_compare.add_trace(
 st.subheader("🔍 Stock Performance Comparison")
 
 fig_compare.update_layout(
-    title="Stock Performance Comparison",
     xaxis_title="Date",
     yaxis_title="Return (%)",
     hovermode="x unified"
